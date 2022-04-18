@@ -1,0 +1,174 @@
+.global {
+  width: 1080px;
+  min-width: 800px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #f4f2ec;
+  background-image: url(../Images/fundo.png);
+  background-repeat: repeat-x;
+  font-size: 12px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+.link:link,
+.link:active,
+.link:visited {
+  color: #af670a;
+  text-decoration: none;
+  margin-right: 25px;
+  padding-bottom: 3px;
+}
+
+.link:hover {
+  color: #227115;
+}
+
+.link--underline:link,
+.link--underline:active,
+.link--underline:visited {
+  text-transform: uppercase;
+}
+
+.link--underline:hover {
+  border-bottom: 1px solid #535858;
+}
+
+.link--space:link,
+.link--space:active,
+.link--space:visited {
+  margin: 0;
+  padding: 2px 10px;
+}
+
+.header {
+  padding: 15px 0;
+  height: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  width: 248px;
+  height: 21px;
+  margin: 0px;
+}
+
+.menu {
+  list-style: none;
+  margin: 20px -25px;
+  margin-left: -50px;
+}
+
+.menu__itens {
+  float: left;
+}
+
+.main {
+  width: 710px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.main__title {
+  color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content__itens {
+  width: 310px;
+  margin-top: 25px;
+}
+
+.side {
+  width: 350px;
+  float: right;
+  background-color: #ebe7dd;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.side__section {
+  background-color: #cdc8b1;
+  padding: 27px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.side__section--no-background {
+  background-color: #ebe7dd;
+}
+
+.section__title {
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+.section__title--invisible {
+  display: none;
+}
+
+.fieldset {
+  border: none;
+}
+
+.fieldset__field {
+  height: 20px;
+  width: 40px;
+  background-color: #fff;
+  border: 1px solid #ada484;
+  font-size: 1em;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+.fieldset__field--long {
+  width: 110px;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  background-color: #9b9271;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.galery {
+  display: block;
+  background-image: url(../Images/fundo-foto.png);
+  background-repeat: no-repeat;
+  float: left;
+  padding: 15px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.galery__image {
+  margin-left: 2px;
+  margin-top: 4px;
+}
+
+.footer {
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-image: url(../Images/fundo-rodape.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
